@@ -8,13 +8,14 @@
   height: 100vh;
   background-color: whitesmoke;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: center;  
+//   align-items: center;
 }
 .card {
   width: 400px;
   height: 400px;
   position: relative;
+  margin: 20%;
 }
 .rolebg {
   width: 400px;
@@ -46,10 +47,11 @@
   position: absolute;
   padding: 0px;
   color: red;
-  bottom: 100px;
+  bottom: 300px;
   opacity: 0;
   transition: 2s;
 }
+
 .content h1 {
   font-weight: 200;
   font-size: 30pt;
@@ -63,9 +65,9 @@
   transform: perspective(1000px) rotateX(30deg) skewX(-20deg);
 }
 .card:hover .role {
-  transform: scale(1.4);
+  transform: scale(1.2);
 }
 .card:hover .content {
   opacity: 1;
-  transform: translateY(200px);
+  transform: translateY(-200px);
 }
