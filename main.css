@@ -12,10 +12,10 @@
 }
 
 .left {
-  background-color: #dcba86;
+  background-color: rgb(39, 16, 29);
   height: 100%;
   width: 30%;
-  color: #fff;
+  color: rgb(235, 91, 177);
 }
 
 .logo {
@@ -26,7 +26,7 @@
 
 .right {
   position: relative;
-  background: #fff;
+  background: rgb(26, 24, 25);
   height: 100%;
   width: 70%;
 }
@@ -76,8 +76,14 @@
 .brand h1 {
   font-size: 6rem;
   margin-bottom: 2rem;
-  color: #c99035;
+  color: rgb(219, 106, 174);
   font-weight: 200;
+  transition: 0.5s;
+}
+
+.brand h1:hover {
+  transition: 0.5s;
+  color: rgb(102, 36, 75);
 }
 
 .brand p {
