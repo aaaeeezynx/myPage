@@ -28,10 +28,3 @@ TweenMax.from(".brand", 2, {
     opacity: 0,
     ease: Expo.easeInOut
 });
-TweenMax.from(".menu", 2, {
-    delay: 3.5,
-    y: 20,
-    opacity: 0,
-    rotation: 90,
-    ease: Expo.easeInOut
-});

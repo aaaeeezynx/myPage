@@ -1,7 +1,13 @@
+@font-face {
+  font-family: "ROG";
+  src: local("ROG"), url("./batmfo__.woff") format("woff");
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "ROG";
+  background: rgb(32, 32, 32);
 }
 
 .container {
@@ -12,16 +18,16 @@
 }
 
 .left {
-  background-color: rgb(39, 16, 29);
+  background-color: rgb(69, 29, 52);
   height: 100%;
-  width: 30%;
+  width: 50%;
   color: rgb(235, 91, 177);
 }
 
 .logo {
   padding: 3rem;
-  font-size: 3rem;
-  font-weight: 200;
+  font-size: 3.5rem;
+  color: rgb(255, 28, 187);
 }
 
 .right {
@@ -29,14 +35,6 @@
   background: rgb(26, 24, 25);
   height: 100%;
   width: 70%;
-}
-
-.color-block {
-  position: absolute;
-  width: 0%;
-  height: 100vh;
-  background: #747373;
-  animation: to-right 4s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
 }
 
 @keyframes to-right {
@@ -53,27 +51,15 @@
     width: 0;
   }
 }
-.menu {
-  position: absolute;
-  top: 3rem;
-  right: 4rem;
-  width: 50px;
-  height: 45px;
-}
-
-.menu .iconfont {
-  font-size: 60px;
-  color: #dcba86;
-}
-
-.brand {
+.info {
   position: absolute;
   height: 40%;
-  left: 30vw;
+  left: 20vw;
   top: 30vh;
+  background: rgb(26, 24, 25);
 }
 
-.brand h1 {
+.info h1 {
   font-size: 6rem;
   margin-bottom: 2rem;
   color: rgb(219, 106, 174);
@@ -81,12 +67,12 @@
   transition: 0.5s;
 }
 
-.brand h1:hover {
+.info h1:hover {
   transition: 0.5s;
   color: rgb(102, 36, 75);
 }
 
-.brand p {
+.info p {
   margin-left: 0.5rem;
   font-size: 1.2rem;
   padding-right: 20rem;
@@ -94,12 +80,20 @@
   font-weight: 200;
 }
 
-.brand span {
+.info a {
   display: block;
-  margin-top: 5rem;
-  font-size: 1.6rem;
-  color: #747373;
-  font-weight: 400;
+  margin-top: 4.5rem;
+  font-size: 5rem;
+  color: rgb(219, 106, 174);
+  background: rgb(26, 24, 25);
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+.info a:hover {
+  transition: 0.5s;
+  color: rgb(239, 177, 213);
+  text-decoration: none;
 }
 
 .pic {
@@ -108,5 +102,7 @@
   left: 15vw;
   height: 60vh;
   width: 40vw;
+  background: url(./2.jpg);
+  background-size: cover;
   box-shadow: 7px 29px 49px 0px rgba(0, 0, 0, 0.3);
 }/*# sourceMappingURL=main.css.map */
