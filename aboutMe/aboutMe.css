@@ -1,8 +1,8 @@
 @font-face {
   font-family: "ROG";
-  src: local("ROG"), url("./batmfo__.woff") format("woff");
+  src: local("ROG"), url("../material/batmfo__.woff") format("woff");
   font-family: "cubic";
-  src: local("cubic"), url("./Cubic_11_1.100_R.woff") format("woff");
+  src: local("cubic"), url("../material/Cubic_11_1.100_R.woff") format("woff");
 }
 * {
   margin: 0;
@@ -28,7 +28,6 @@
   padding-right: 5%;
   padding-bottom: 5%;
   border: aqua 1px solid;
-  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -44,7 +43,7 @@
   border: white 1px solid;
   width: 100%;
   height: 10%;
-  font-size: 2.5rem;
+  font-size: 2.5em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -59,18 +58,18 @@
 .infoTitle {
   width: 100%;
   height: 10%;
-  font-size: 2rem;
+  font-size: 2em;
   display: flex;
   align-items: center;
 }
 
 .infoText {
-  font-size: 1.3rem;
-  line-height: 2rem;
+  font-size: 1.1em;
+  line-height: 2em;
 }
 
 .infoText span {
-  font-size: 1.6rem;
+  font-size: 1.4em;
 }
 
 .other {
@@ -78,5 +77,87 @@
   width: 100%;
   border: 1px red solid;
   position: absolute;
-  margin-top: 188vh;
+  margin-top: 190vh;
+}
+
+.cardTitle {
+  height: 5%;
+  width: 100%;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.card {
+  height: 30%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.card .flip {
+  position: relative;
+}
+.card .flip .front, .card .flip .back {
+  display: block;
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition-duration: 0.7s;
+  transition-property: transform, opacity;
+}
+.card .flip .front {
+  transform: rotateY(0deg);
+}
+.card .flip .back {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  transform: rotateY(-180deg);
+}
+.card .flip:hover > .front {
+  transform: rotateY(180deg);
+}
+.card .flip:hover > .back {
+  opacity: 1;
+  transform: rotateY(0deg);
+}
+.card .flip.flip-vertical > .back {
+  transform: rotateX(-180deg);
+}
+.card .flip.flip-vertical:hover > .front {
+  transform: rotateX(180deg);
+}
+.card .flip.flip-vertical:hover > .back {
+  transform: rotateX(0deg);
+}
+.card .flip {
+  position: relative;
+  display: inline-block;
+  margin-right: 1%;
+  margin-bottom: 1em;
+  width: 400px;
+  height: 100px;
+  border: 1px white solid;
+}
+.card .flip .front,
+.card .flip .back {
+  display: block;
+  color: white;
+  width: inherit;
+  background-size: cover !important;
+  background-position: center !important;
+  height: 220px;
+  padding: 1em 2em;
+  border-radius: 10px;
+}
+.card .flip .front p,
+.card .flip .back p {
+  font-size: 1.5rem;
+  word-wrap: break-word;
+}
+.card .text-shadow {
+  background-color: transparent;
+  text-align: center;
+  line-height: 22rem;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.04), 2px 2px rgba(0, 0, 0, 0.04), 3px 3px rgba(0, 0, 0, 0.04), 4px 4px rgba(0, 0, 0, 0.04), 0.125rem 0.125rem rgba(0, 0, 0, 0.04), 6px 6px rgba(0, 0, 0, 0.04), 7px 7px rgba(0, 0, 0, 0.04), 8px 8px rgba(0, 0, 0, 0.04), 9px 9px rgba(0, 0, 0, 0.04), 0.3125rem 0.3125rem rgba(0, 0, 0, 0.04), 11px 11px rgba(0, 0, 0, 0.04), 12px 12px rgba(0, 0, 0, 0.04), 13px 13px rgba(0, 0, 0, 0.04), 14px 14px rgba(0, 0, 0, 0.04), 0.625rem 0.625rem rgba(0, 0, 0, 0.04), 16px 16px rgba(0, 0, 0, 0.04), 17px 17px rgba(0, 0, 0, 0.04), 18px 18px rgba(0, 0, 0, 0.04), 19px 19px rgba(0, 0, 0, 0.04), 1.25rem 1.25rem rgba(0, 0, 0, 0.04);
 }/*# sourceMappingURL=aboutMe.css.map */
