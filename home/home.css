@@ -1,6 +1,6 @@
 @font-face {
   font-family: "ROG";
-  src: local("ROG"), url("./batmfo__.woff") format("woff");
+  src: local("ROG"), url("../material/batmfo__.woff") format("woff");
 }
 * {
   margin: 0;
@@ -25,9 +25,10 @@
 }
 
 .logo {
-  padding: 3rem;
+  padding: 10%;
   font-size: 3.5rem;
   color: rgb(255, 28, 187);
+  border: white solid 1px;
 }
 
 .right {
@@ -105,4 +106,4 @@
   background: url(./2.jpg);
   background-size: cover;
   box-shadow: 7px 29px 49px 0px rgba(0, 0, 0, 0.3);
-}/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=home.css.map */
