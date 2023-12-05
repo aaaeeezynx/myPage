@@ -1,0 +1,108 @@
+@font-face {
+  font-family: "ROG";
+  src: local("ROG"), url("./batmfo__.woff") format("woff");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "ROG";
+  background: rgb(32, 32, 32);
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+}
+
+.left {
+  background-color: rgb(69, 29, 52);
+  height: 100%;
+  width: 50%;
+  color: rgb(235, 91, 177);
+}
+
+.logo {
+  padding: 3rem;
+  font-size: 3.5rem;
+  color: rgb(255, 28, 187);
+}
+
+.right {
+  position: relative;
+  background: rgb(26, 24, 25);
+  height: 100%;
+  width: 70%;
+}
+
+@keyframes to-right {
+  0% {
+    left: 0;
+    width: 0%;
+  }
+  50% {
+    left: 0;
+    width: 100%;
+  }
+  100% {
+    left: 100%;
+    width: 0;
+  }
+}
+.info {
+  position: absolute;
+  height: 40%;
+  left: 20vw;
+  top: 30vh;
+  background: rgb(26, 24, 25);
+}
+
+.info h1 {
+  font-size: 6rem;
+  margin-bottom: 2rem;
+  color: rgb(219, 106, 174);
+  font-weight: 200;
+  transition: 0.5s;
+}
+
+.info h1:hover {
+  transition: 0.5s;
+  color: rgb(102, 36, 75);
+}
+
+.info p {
+  margin-left: 0.5rem;
+  font-size: 1.2rem;
+  padding-right: 20rem;
+  color: #747373;
+  font-weight: 200;
+}
+
+.info a {
+  display: block;
+  margin-top: 4.5rem;
+  font-size: 5rem;
+  color: rgb(219, 106, 174);
+  background: rgb(26, 24, 25);
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+.info a:hover {
+  transition: 0.5s;
+  color: rgb(239, 177, 213);
+  text-decoration: none;
+}
+
+.pic {
+  position: absolute;
+  top: 25vh;
+  left: 15vw;
+  height: 60vh;
+  width: 40vw;
+  background: url(./2.jpg);
+  background-size: cover;
+  box-shadow: 7px 29px 49px 0px rgba(0, 0, 0, 0.3);
+}/*# sourceMappingURL=home.css.map */

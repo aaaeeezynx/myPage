@@ -1,11 +1,14 @@
 @font-face {
   font-family: "ROG";
   src: local("ROG"), url("./batmfo__.woff") format("woff");
+  font-family: "cubic";
+  src: local("cubic"), url("./Cubic_11_1.100_R.woff") format("woff");
 }
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "cubic";
   background: rgb(32, 32, 32);
   color: white;
 }
