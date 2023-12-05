@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "ROG";
+  src: local("ROG"), url("./batmfo__.woff") format("woff");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: rgb(32, 32, 32);
+  color: white;
+}
+
+.header {
+  width: 100%;
+  height: 20vh;
+  padding-left: 5%;
+  padding-right: 5%;
+  border: white 1px solid;
+}
+
+.main {
+  width: 100%;
+  height: 80vh;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  border: aqua 1px solid;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.myDoc {
+  border: rgb(255, 0, 0) 1px solid;
+  width: 30%;
+  height: 100%;
+}
+
+.myDocTitle {
+  border: white 1px solid;
+  width: 100%;
+  height: 10%;
+  font-size: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info {
+  border: white 1px solid;
+  width: 70%;
+  height: 100%;
+}
+
+.infoTitle {
+  width: 100%;
+  height: 10%;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.infoText {
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
+
+.infoText span {
+  font-size: 1.6rem;
+}
+
+.other {
+  height: 100vh;
+  width: 100%;
+  border: 1px red solid;
+  position: absolute;
+  margin-top: 188vh;
+}/*# sourceMappingURL=aboutMe.css.map */
