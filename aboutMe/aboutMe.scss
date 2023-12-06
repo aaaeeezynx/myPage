@@ -50,7 +50,7 @@
   border: white 1px solid;
   width: 100%;
   height: 20%;
-  font-size: 2.2em;
+  font-size: 2em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -65,7 +65,7 @@
 .infoTitle {
   width: 100%;
   height: 10%;
-  font-size: 2.7em;
+  font-size: 2em;
   // border: white 1px solid;
 
   display: flex;
@@ -73,11 +73,11 @@
   align-items: center;
 }
 .infoText {
-  font-size: 1.3em;
+  font-size: 1em;
   line-height: 2em;
 }
 .infoText span {
-  font-size: 1.6em;
+  font-size: 1.3em;
 }
 .other {
   height: 100vh;
@@ -94,7 +94,6 @@
   width: 100%;
   font-size: 2.5rem;
   margin-top: 1%;
-  margin-bottom: 1%;
   // border: 1px white solid;
   text-align: center;
 }
@@ -167,7 +166,7 @@
       width: inherit;
       background-size: cover !important;
       background-position: center !important;
-      height: 220px;
+      height: 180px;
       padding: 1em 2em;
       // background: #313131;
       border-radius: 10px;
@@ -181,7 +180,7 @@
   .text-shadow {
     background-color: transparent;
     text-align: center;
-    line-height: 22rem;
+    line-height: 15rem;
     text-shadow: 1px 1px rgba(0, 0, 0, 0.04), 2px 2px rgba(0, 0, 0, 0.04),
       3px 3px rgba(0, 0, 0, 0.04), 4px 4px rgba(0, 0, 0, 0.04),
       0.125rem 0.125rem rgba(0, 0, 0, 0.04), 6px 6px rgba(0, 0, 0, 0.04),
@@ -197,9 +196,10 @@
 /////////////////////////////////////////////////////
 .songs {
   width: 50%;
-  height: 55%;
-  padding: 2%;
-  margin-left: 1%;
+  height: 50%;
+  margin: 3%;
+  margin-left: 3%;
+  margin-top: 1%;
   text-align: center;
 
   // border: white 1px solid;
@@ -208,8 +208,9 @@
   p {
     width: 100%;
     height: 5%;
-    font-size: 1.5em;
-    margin-bottom: 6%;
+    font-size: 1.2em;
+    margin-bottom: 3%;
+    margin-top: 3%;
   }
   iframe {
     border: white 1px solid;
