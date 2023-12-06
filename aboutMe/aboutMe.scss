@@ -1,7 +1,8 @@
 @font-face {
   font-family: "ROG";
   src: local("ROG"), url("../material/batmfo__.woff") format("woff");
-
+}
+@font-face {
   font-family: "cubic";
   src: local("cubic"), url("../material/Cubic_11_1.100_R.woff") format("woff");
 }
@@ -17,19 +18,20 @@
 }
 .header {
   width: 100%;
-  height: 20vh;
+  height: 10vh;
   padding-left: 5%;
   padding-right: 5%;
   font-size: 2em;
   display: flex;
   border: white 1px solid;
-////////////////////////////////////////////////
-
 }
-
+.headerLink :hover {
+  color: aqua;
+}
+////////////////////////////////////////////////
 .main {
   width: 100%;
-  height: 80vh;
+  height: 95vh;
   padding-left: 5%;
   padding-right: 5%;
   padding-bottom: 5%;
@@ -50,9 +52,8 @@
 .myDocTitle {
   border: white 1px solid;
   width: 100%;
-  height: 10%;
-  font-size: 2.5em;
-
+  height: 20%;
+  font-size: 2.2em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -86,21 +87,23 @@
   border: 1px red solid;
 
   position: absolute;
-  margin-top: 190vh;
+  margin-top: 205vh;
 }
 
 /////////////////////////////////////////////////////
 .cardTitle {
-  height: 5%;
+  height: 3%;
   width: 100%;
   font-size: 2.5rem;
+  margin-top: 1%;
+  margin-bottom: 1%;
   // border: 1px white solid;
   text-align: center;
 }
 .cardArea {
   height: 30%;
   width: 100%;
-  padding: 2%;
+  padding: 3%;
   display: flex;
   justify-content: space-around;
 
@@ -196,18 +199,20 @@
 /////////////////////////////////////////////////////
 .songs {
   width: 50%;
-  height: 60%;
+  height: 55%;
   padding: 2%;
-  margin-top: 1%;
+  margin-left: 1%;
+  text-align: center;
   // border: white 1px solid;
 
   // margin-left: 1%;
   p {
     width: 100%;
-    height: 10%;
+    height: 5%;
     font-size: 1.5em;
+    margin-bottom: 6%;
   }
-  iframe{
+  iframe {
     border: white 1px solid;
     width: 100%;
     height: 100%;
