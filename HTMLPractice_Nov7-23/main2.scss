@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap");
+
+body {
+  width: 1440px;
+  height: 1022px;
+  position: relative;
+  margin: 0;
+}
+
+.box {
+  position: absolute;
+}
+.headerBlock {
+  width: 98px;
+  height: 98px;
+  top: 34px;
+  left: 82px;
+  background-color: #475467;
+}
+.headerLink1 {
+  width: 77px;
+  height: 24px;
+  top: 93px;
+  left: 335px;
+}
+.headerLink2 {
+  width: 136px;
+  height: 24px;
+  top: 93px;
+  left: 468px;
+}
+.headerLink3 {
+  width: 210px;
+  height: 30px;
+  top: 88px;
+  left: 895px;
+}
+.header4 {
+  width: 0px;
+  height: 22px;
+  top: 90px;
+  left: 432px;
+  border: black solid 1px;
+}
+.headerBtn {
+  width: 248px;
+  height: 48px;
+  top: 71px;
+  left: 1112px;
+  border-radius: 8px;
+  background-color: #475467;
+  color: white;
+}
+
+.bg {
+  width: 1440px;
+  height: 854px;
+  top: 168px;
+  background-color: #bec0cd;
+}
+
+.mail {
+  width: 320px;
+  height: 80px;
+  top: 393px;
+  left: 560px;
+  border-radius: 10x;
+  font-size: 15pt;
+}
+.pswd {
+  width: 320px;
+  height: 80px;
+  top: 491px;
+  left: 560px;
+  border-radius: 10x;
+  font-size: 15pt;
+}
+
+.login {
+  width: 234px;
+  height: 52px;
+  top: 600px;
+  left: 603px;
+  background-color: #475467;
+  color: white;
+}

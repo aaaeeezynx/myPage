@@ -1,0 +1,267 @@
+body {
+  background-color: #fffaea;
+  margin: 0;
+  height: 2046px;
+  width: 785px;
+  position: relative;
+}
+body .header1 {
+  width: 785px;
+  height: 165px;
+  border: 1px black solid;
+  margin-bottom: 65px;
+  display: flex;
+  justify-content: space-between;
+}
+body .headerBlock {
+  width: 98px;
+  height: 98px;
+  border: 3px red solid;
+  background-color: pink;
+  margin-left: 62px;
+  margin-top: 59px;
+}
+body .headerMenu {
+  width: 40px;
+  height: 40px;
+  background-image: url("./Group 10.png");
+  margin-top: 74px;
+  margin-right: 72px;
+}
+body .header2 {
+  width: 661px;
+  height: 300px;
+  border: 1px black solid;
+  margin-top: 68px;
+  margin-left: 62px;
+  display: flex;
+}
+body .header2_L {
+  width: 285px;
+  height: 300px;
+}
+body .header2_R {
+  width: 379px;
+  height: 300px;
+  background-image: url("./Rectangle 2.png");
+  background-size: cover;
+}
+body .title {
+  width: 117px;
+  height: 39px;
+  position: absolute;
+  left: 334px;
+  top: 582px;
+}
+body .donut {
+  width: 196px;
+  height: 242px;
+  position: absolute;
+  left: 62px;
+  top: 657px;
+}
+body .icecream {
+  width: 196px;
+  height: 242px;
+  position: absolute;
+  left: 295px;
+  top: 657px;
+}
+body .cookie {
+  width: 196px;
+  height: 242px;
+  position: absolute;
+  left: 528px;
+  top: 657px;
+}
+body .item {
+  width: 140px;
+  height: 42px;
+  position: absolute;
+  background-color: #d38282;
+  left: 90px;
+  top: 843px;
+  display: block;
+  line-height: 9px;
+  text-align: center;
+  color: white;
+}
+body .item2 {
+  width: 140px;
+  height: 42px;
+  position: absolute;
+  background-color: #d38282;
+  left: 323px;
+  top: 843px;
+  line-height: 9px;
+  text-align: center;
+  color: white;
+}
+body .item3 {
+  width: 140px;
+  height: 42px;
+  position: absolute;
+  background-color: #d38282;
+  left: 556px;
+  top: 843px;
+  line-height: 9px;
+  text-align: center;
+  color: white;
+}
+body .line {
+  width: 692px;
+  border: 1px black solid;
+  position: absolute;
+  left: 44px;
+  top: 956px;
+}
+body .News {
+  width: 86px;
+  height: 39px;
+  position: absolute;
+  left: 350px;
+  top: 996px;
+  margin: 0;
+}
+body .fruitTartImg {
+  width: 196px;
+  height: 264px;
+  position: absolute;
+  top: 1057px;
+  left: 62px;
+  background-color: white;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4), 1px 1px 4px rgba(0, 0, 0, 0.4), 1px 1px 4px rgba(0, 0, 0, 0.4);
+}
+body .fruitTart {
+  width: 155px;
+  height: 65px;
+  position: absolute;
+  top: 1199px;
+  left: 79px;
+}
+body .detail1 {
+  width: 90px;
+  height: 26px;
+  position: absolute;
+  top: 1276px;
+  left: 79px;
+  background-color: #343434;
+  color: white;
+  text-align: center;
+}
+body .cupCakeImg {
+  width: 196px;
+  height: 264px;
+  position: absolute;
+  top: 1057px;
+  left: 295px;
+  background-color: white;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4), 1px 1px 4px rgba(0, 0, 0, 0.4), 1px 1px 4px rgba(0, 0, 0, 0.4);
+}
+body .cupCake {
+  width: 155px;
+  height: 65px;
+  position: absolute;
+  top: 1199px;
+  left: 312px;
+}
+body .detail2 {
+  width: 90px;
+  height: 26px;
+  position: absolute;
+  top: 1276px;
+  left: 312px;
+  background-color: #343434;
+  color: white;
+  text-align: center;
+}
+body .juiceImg {
+  width: 196px;
+  height: 264px;
+  position: absolute;
+  top: 1057px;
+  left: 528px;
+  background-color: white;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4), 1px 1px 4px rgba(0, 0, 0, 0.4), 1px 1px 4px rgba(0, 0, 0, 0.4);
+}
+body .juice {
+  width: 155px;
+  height: 65px;
+  position: absolute;
+  top: 1199px;
+  left: 545px;
+}
+body .detail3 {
+  width: 90px;
+  height: 26px;
+  position: absolute;
+  top: 1276px;
+  left: 545px;
+  background-color: #343434;
+  color: white;
+  text-align: center;
+}
+body .more {
+  width: 125px;
+  height: 36px;
+  position: absolute;
+  top: 1355px;
+  left: 330px;
+  background-color: #d38282;
+  color: white;
+  text-align: center;
+  line-height: 35px;
+}
+body .block1 {
+  width: 402px;
+  height: 370px;
+  position: absolute;
+  top: 1468px;
+  background-color: #e49e9e;
+}
+body .footImg {
+  width: 405px;
+  height: 267px;
+  position: absolute;
+  top: 1515px;
+  left: 62px;
+}
+body .block2 {
+  width: 220px;
+  height: 267px;
+  position: absolute;
+  top: 1515px;
+  left: 504px;
+  background-color: #f7cdc0;
+}
+body .newArrival {
+  width: 131px;
+  height: 29px;
+  position: absolute;
+  top: 1547px;
+  left: 548px;
+}
+body .newArrivalDetail {
+  width: 155px;
+  height: 169px;
+  position: absolute;
+  top: 1592px;
+  left: 536px;
+}
+body .foot {
+  width: 785px;
+  height: 73px;
+  position: absolute;
+  top: 1967px;
+  background-color: #e49e9e;
+}
+body .copyright {
+  width: 181px;
+  height: 17px;
+  position: absolute;
+  top: 1998px;
+  left: 302px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: auto;
+  background-color: orangered;
+}
+
+////////////////////////////////
+
+.loader {
+  width: 100vw;
+  height: 100vh;
+  // position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: orange;
+  z-index: 10;
+}
+.loader span {
+  width: 25px;
+  height: 150px;
+  margin: 0 20px;
+  background-color: whitesmoke;
+  animation: animate 1.4s linear infinite;
+}
+.loader span:nth-child(1) {
+  animation-delay: 0s;
+}
+.loader span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.loader span:nth-child(3) {
+  animation-delay: 0.4s;
+}
+.loader span:nth-child(4) {
+  animation-delay: 0.6s;
+}
+.loader span:nth-child(5) {
+  animation-delay: 0.8s;
+}
+.loader span:nth-child(6) {
+  animation-delay: 1s;
+}
+.loader span:nth-child(7) {
+  animation-delay: 1.2s;
+}
+.loader span:nth-child(8) {
+  animation-delay: 1.4s;
+}
+
+@keyframes animate {
+  0% {
+    box-shadow: 0 0 0 rgba(30, 30, 30, 0.5);
+    opacity: 0;
+    transform: translatex(-50px) scale(0.5);
+  }
+  50% {
+    box-shadow: 0 20px 50px rgba(30, 30, 30, 0.5);
+    opacity: 1;
+    transform: translatex(0px) scale(1);
+  }
+  100% {
+    box-shadow: 0 0 0 rgba(30, 30, 30, 0.5);
+    opacity: 0;
+    transform: translatex(50px) scale(0.5);
+  }
+}
+
+//////////////////////////////////
+.title {
+  width: 84vw;
+  height: 20%;
+  background-color: rgb(240, 240, 240);
+  text-align: center;
+  font-size: 4rem;
+  margin: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-radius: 10px;
+}
+.box {
+  width: 80vw;
+  height: 60%;
+  background-color: rgb(240, 240, 240);
+  margin: 10%;
+  margin-top: 0;
+  border-radius: 10px;
+  justify-content: space-around;
+  font-size: 2rem;
+  padding: 2%;
+  padding-bottom: 3%;
+}
+.yrNum {
+  font-size: 2rem;
+  width: 100%;
+  text-align: center;
+}
+.btn {
+  font-size: 2rem;
+  width: 20%;
+  height: 12%;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: gray;
+  color: white;
+  transition: 1s;
+}
+.btn:hover {
+  background-color:whitesmoke;
+  color: rgb(82, 81, 81);
+}
+.total {
+  width: 100%;
+  height: 20%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  text-align: center;
+}
+.ansNum {
+  width: 95%;
+  height: 60%;
+  margin-top: 0;
+  background-color: rgb(171, 171, 171);
+  text-align: center;
+  white-space: pre-wrap;
+  line-height: 70px;
+  padding: 2%;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}

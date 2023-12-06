@@ -1,0 +1,295 @@
+body {
+  margin: 0;
+  height: 900px;
+}
+
+.backGround {
+  width: 100%;
+  height: 85vh;
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  filter: brightness(90%);
+}
+ 
+.logo {
+  width: 100%;
+  height: 47%;
+  position: absolute;
+  top: 12%;
+  display: flex;
+  justify-content: center;
+}
+.main {
+  width: 25%;
+  height: 100%;
+  position: absolute;
+  background-image: url(./logo_main.png);
+  background-size: cover;
+  object-fit: cover;
+  filter: brightness(30%);
+  transition: all 0.7s linear;
+    filter: blur(5px);
+}
+.main:hover {
+  filter: blur(0);
+  filter: brightness(120%);
+}
+
+.headerLine {
+  width: 100%;
+  height: 10vh;
+  position: absolute;
+  top: 90vh;
+  background-color: #7f9f9c;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+}
+.hlBtn {
+  width: 17vw;
+  height: auto;
+  background-color: #7f9f9c;
+  color: white;
+  text-align: center;
+  font-size: 100%;
+  transition: all 0.5s linear;
+  text-decoration: none;
+  a{
+    text-decoration:none;
+    color: #f3f6f7;
+    transition: all 0.5s linear;
+  }
+  :hover{
+    color:#9bb9b6;
+  }
+}
+.hlBtn:hover {
+  color: #9bb9b6;
+  text-decoration: none;
+}
+
+.bg2 {
+  background-color: white;
+  // border: black solid 1px;
+  width: 100%;
+  height: 80vh;
+  top: 100vh;
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+}
+.bg2New {
+  width: 100%;
+  height: 10%;
+  top: 5%;
+  font-size: 210%;
+  color: #78a09c;
+  text-align: center;
+  position: absolute;
+}
+.block {
+  width: 80vw;
+  height: 40vh;
+  position: absolute;
+  top: 17%;
+}
+.blockSet {
+  border: #78a09c 1px solid;
+  border-radius: 3px;
+  position: absolute;
+  width: 39vw;
+  height: 18vh;
+  transition: all 0.5s linear;
+}
+.blockSet:hover {
+  background-color: #f3f6f7;
+}
+
+.block1Text {
+  width: 40%;
+  height: 20%;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  font-size: 8  0%;
+}
+.block1Img {
+  width: 40%;
+  height: 70%;
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  background-image: url(./logo_news.jpg);
+  background-size: cover;
+}
+
+.block2 {
+  top: 22vh;
+
+  .block1Text {
+    width: 40%;
+    height: 20%;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    font-size: 8  0%;
+  }
+  .block1Img {
+    width: 40%;
+    height: 70%;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    // background-image: url(./logo_news.jpg);
+    background-size: cover;
+  }
+}
+.block3 {
+  left: 41vw;
+
+  .block1Text {
+    width: 40%;
+    height: 20%;
+    top: 30%;
+    left: 50%;
+    position: absolute;
+    font-size: 8  0%;
+  }
+  .block3Img {
+    width: 40%;
+    height: 70%;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    background-image: url(./shiei1-1-thumb-700x482-2247.jpg);
+    background-size: cover;
+  }  
+}
+.block4 {
+  top: 22vh;
+  left: 41vw;
+
+  .block4Text {
+    width: 40%;
+    height: 20%;
+    top: 30%;
+    left: 50%;
+    position: absolute;
+    font-size: 8  0%;
+  }
+}
+.blockBtn {
+  width: 40vw;
+  height: 9vh;
+  top: 60vh;
+  left: 30%;
+  position: absolute;
+  background-color: #789696;
+  color: white;
+  border-radius: 3px;
+  transition: all 0.5s linear;
+  font-size: 150%;
+}
+.blockBtn:hover {
+  background-color: #f3f6f7;
+  color: #789696;
+}
+
+.bg3 {
+  background-color: #f3f6f7;
+  width: 100%;
+  height: 100vh;
+  top: 175vh;
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+}
+.bg3Title {
+  display: flex;
+  justify-content: center;
+}
+.bg3Text {
+  width: 35%;
+  height: 10%;
+  top: 13%;
+  font-size: 210%;
+  color: #587771;
+  text-align: center;
+  position: absolute;
+}
+.bg3TitleL {
+  width: 25%;
+  height: 0;
+  top: 17%;
+  left: 9vw;
+  position: absolute;
+  border: solid #587771 0.3px;
+}
+.bg3TitleR {
+  width: 25%;
+  height: 0;
+  top: 17%;
+  left: 65vw;
+  position: absolute;
+  border: solid #587771 0.3px;
+}
+.top {
+  width: 82%;
+  height: 50%;
+  left: 9%;
+  top: 30%;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+}
+.topSet {
+  width: 30%;
+  height: auto;
+  font-size: 150%;
+  align-content: space-between;
+  transition: all 0.5s linear;
+  color: #587771;
+}
+
+.topImg {
+  width: auto;
+  height: 70%;
+  object-fit: cover;
+  background-size: cover;
+  transition: all 0.5s linear;
+}
+.topSet:hover {
+  color: #f3f6f7;
+  background-color: #658583;
+}
+
+.top_1 {
+  background-image: url(./sinei1-19.jpg);
+}
+.top_2 {
+  background-image: url(./sato2023-8.jpg);
+}
+.top_3 {
+  background-image: url(./大菊1.jpg);
+}
+
+.bg3Btn {
+  width: 40vw;
+  height: 9vh;
+  top: 85vh;
+  left: 30%;
+  position: absolute;
+  background-color: #789696;
+  color: white;
+  border-radius: 3px;
+  transition: all 0.5s linear;
+  font-size: 150%;
+}
+.bg3Btn:hover {
+  background-color: #f3f6f7;
+  color: #789696;
+}
+
