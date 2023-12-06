@@ -11,16 +11,14 @@ TweenMax.from(".right", 2, {
 });
 
 TweenMax.from(".info", 2, {
-    delay: 3,
+    delay: 3.2,
     width: "0",
-    opacity: "1",
     x: -20,
-
     ease: Expo.easeInOut
 });
 
 TweenMax.from(".pic", 2, {
-    delay: 3,
+    delay: 2.5,
     width: "0",
     x: -20,
     ease: Expo.easeInOut
