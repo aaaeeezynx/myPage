@@ -75,6 +75,16 @@
   align-items: center;
 }
 
+.myImg {
+  width: 70%;
+  height: 50%;
+  margin: 15%;
+  background: url(../material/me.jpg) center;
+  background-size: cover;
+  -webkit-clip-path: circle(50% at 50% 50%);
+          clip-path: circle(50% at 50% 50%);
+}
+
 .info {
   width: 70%;
   height: 100%;

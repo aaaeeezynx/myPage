@@ -76,7 +76,16 @@
   justify-content: center;
   align-items: center;
 }
+.myImg{
+  // border: white 1px solid;
+  width: 70%;
+  height: 50%;
+  margin: 15%;
+  background: url(../material/me.jpg) center;
+  background-size: cover;
+  clip-path: circle(50% at 50% 50%);
 
+}
 .info {
   // border: white 1px solid;
   width: 70%;
