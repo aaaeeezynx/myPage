@@ -1,17 +1,34 @@
 @font-face {
   font-family: "ROG";
-  src: local("ROG"), url("./material/batmfo__.woff") format("woff");
+  src: local("ROG"), url("../material/batmfa__.woff") format("woff");
 }
 @font-face {
   font-family: "cubic";
-  src: local("cubic"), url("./material/Cubic_11_1.100_R.woff") format("woff");
+  src: local("cubic"), url("../material/Cubic_11_1.100_R.woff") format("woff");
 }
-
+///////////////////////////
+::-webkit-scrollbar {
+  width: 15px;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #600043;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(205, 59, 190);
+  box-shadow: inset 0 0 5px 1px #4b0135;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(240, 27, 219);
+  box-shadow: inset 0 0 5px 1px #4b0135;
+}
+///////////////////////////
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: rgb(32, 32, 32);
+  background: rgb(26, 13, 22);
   color: white;
 }
 .header {
@@ -21,17 +38,21 @@
   padding-left: 3%;
   font-size: 2em;
   display: flex;
-  border: white 1px solid;
+  // border: white 1px solid;
+  transition: 0.5s;
 }
-.headerLink :hover {
-  color: aqua;
+.nav-item :hover {
+  transition: 0.5s;
+  color: rgb(255, 55, 172);
+  text-decoration: none;
+  text-shadow: 0px 0px 8px rgb(250, 146, 206);
 }
 ////////////////////////////////////////////////
 .main {
   width: 100%;
   height: 90vh;
   padding: 3%;
-  border: aqua 1px solid;
+  // border: aqua 1px solid;
   font-family: "cubic";
 
   // position: relative;
@@ -42,12 +63,12 @@
 }
 
 .myDoc {
-  border: rgb(255, 0, 0) 1px solid;
+  // border: rgb(255, 0, 0) 1px solid;
   width: 30%;
   height: 100%;
 }
 .myDocTitle {
-  border: white 1px solid;
+  // border: white 1px solid;
   width: 100%;
   height: 20%;
   font-size: 2em;
@@ -57,7 +78,7 @@
 }
 
 .info {
-  border: white 1px solid;
+  // border: white 1px solid;
   width: 70%;
   height: 100%;
   padding: 1%;
@@ -69,7 +90,6 @@
   // border: white 1px solid;
 
   display: flex;
-  // justify-content: center;
   align-items: center;
 }
 .infoText {
@@ -82,7 +102,7 @@
 .other {
   height: 100vh;
   width: 100%;
-  border: 1px red solid;
+  // border: 1px red solid;
 
   position: absolute;
   margin-top: 190vh;
@@ -162,22 +182,43 @@
     .front,
     .back {
       display: block;
-      color: white;
+      color: rgb(69, 174, 255);
       width: inherit;
       background-size: cover !important;
       background-position: center !important;
       height: 180px;
       padding: 1em 2em;
-      // background: #313131;
+      background: rgb(29, 73, 107);
       border-radius: 10px;
+      animation: neon 2s ease-in-out infinite;
+      @keyframes neon {
+        0%,
+        100% {
+          box-shadow: 0 0 5px rgb(69, 174, 255), 0 0 10px rgb(69, 174, 255),
+            0 0 2px rgb(69, 174, 255);
+        }
+        50% {
+          box-shadow: 0 0 10px rgb(69, 174, 255), 0 0 15px rgb(69, 174, 255),
+            0 0 5px rgb(69, 174, 255);
+        }
+      }
+
       p {
+        background: rgb(29, 73, 107);
+        color: rgb(126, 195, 247);
         font-size: 1.5rem;
         word-wrap: break-word;
+      }
+      h2 {
+        font-size: 1.7rem;
+        color: rgb(126, 195, 247);
+        background: rgb(29, 73, 107);
       }
     }
   }
 
   .text-shadow {
+    color: rgb(190, 231, 247);
     background-color: transparent;
     text-align: center;
     line-height: 15rem;
@@ -201,6 +242,7 @@
   margin-left: 3%;
   margin-top: 1%;
   text-align: center;
+  
 
   // border: white 1px solid;
 
@@ -213,8 +255,21 @@
     margin-top: 3%;
   }
   iframe {
-    border: white 1px solid;
+    // border: white 1px solid;
     width: 100%;
     height: 100%;
+      border-radius: 15px;
+    animation: neon 2s ease-in-out infinite;
+      @keyframes neon {
+        0%,
+        100% {
+          box-shadow: 0 0 5px rgb(69, 174, 255), 0 0 10px rgb(69, 174, 255),
+            0 0 2px rgb(69, 174, 255);
+        }
+        50% {
+          box-shadow: 0 0 10px rgb(69, 174, 255), 0 0 15px rgb(69, 174, 255),
+            0 0 5px rgb(69, 174, 255);
+        }
+      }
   }
 }

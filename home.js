@@ -23,6 +23,12 @@ TweenMax.from(".pic", 2, {
     x: -20,
     ease: Expo.easeInOut
 });
+TweenMax.from(".picsd", 2, {
+    delay: 2.5,
+    width: "0",
+    x: -20,
+    ease: Expo.easeInOut
+});
 TweenMax.from(".logo", 2, {
     delay: 1.5,
     y: 20,
