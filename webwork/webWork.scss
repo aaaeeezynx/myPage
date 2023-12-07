@@ -1,10 +1,10 @@
 @font-face {
   font-family: "ROG";
-  src: local("ROG"), url("/material/batmfo__.woff") format("woff");
+  src: local("ROG"), url("./material/batmfo__.woff") format("woff");
 }
 @font-face {
   font-family: "cubic";
-  src: local("cubic"), url("../material/Cubic_11_1.100_R.woff") format("woff");
+  src: local("cubic"), url("./material/Cubic_11_1.100_R.woff") format("woff");
 }
 
 * {
@@ -33,7 +33,7 @@
 .bgImg {
   width: 100%;
   height: 90vh;
-  background: url(/material/code.png) no-repeat center;
+  background: url(../material/code.png) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
   overflow-x: hidden;
@@ -88,26 +88,26 @@
   }
 }
 .prac1{
-  background: url(/material/HTMLPractice.png) left;
+  background: url(../material/HTMLPractice.png) left;
   background-size: cover;
 }
 .prac2{
-  background: url(/material/HTMLPractice2.png) left;
+  background: url(../material/HTMLPractice2.png) left;
   background-size: cover;
 }
 .prac3{
-  background: url(/material/GuessNumber.png) center;
+  background: url(../material/GuessNumber.png) center;
   background-size: cover;
 }
 .prac4{
-  background: url(/material/Prime.png) center;
+  background: url(../material/Prime.png) center;
   background-size: cover;
 }
 .prac5{
-  background: url(/material/kagamiWeb.png) center;
+  background: url(../material/kagamiWeb.png) center;
   background-size: cover;
 }
 .prac6{
-  background: url(/material/Tainan.png) center;
+  background: url(../material/Tainan.png) center;
   background-size: cover;
 }
