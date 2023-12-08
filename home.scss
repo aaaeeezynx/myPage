@@ -25,7 +25,7 @@
   clip-path: polygon(0 0, 100% 0%, 50% 100%, 0 100%);
   color: rgb(235, 91, 177);
 
-  border: white solid 1px;
+  // border: white solid 1px;
 }
 
 .logo {
@@ -52,7 +52,7 @@
   position: absolute;
   width: 0%;
   height: 100vh;
-  clip-path: polygon(0 0, 50% 0, 100% 100%, 50% 100%);
+  clip-path: polygon(0 0, 70% 0, 100% 100%, 30% 100%);
   background: rgb(237, 61, 185);
   animation: to-right 3.5s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
 }
@@ -63,6 +63,54 @@
     width: 0%;
   }
   50% {
+    left: 0;
+    width: 100%;
+  }
+  100% {
+    left: 100%;
+    width: 0;
+  }
+}
+
+.color-block2 {
+  position: absolute;
+  width: 0%;
+  height: 100vh;
+  clip-path: polygon(30% 0, 100% 0%, 70% 100%, 0% 100%);
+  background: rgb(255, 97, 207);
+  animation: to-right 3.7s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
+}
+
+@keyframes to-right {
+  0% {
+    left: 0;
+    width: 0%;
+  }
+  30% {
+    left: 30;
+    width: 70%;
+  }
+  100% {
+    left: 100%;
+    width: 0;
+  }
+}
+
+.color-block3 {
+  position: absolute;
+  width: 0%;
+  height: 100vh;
+  clip-path: polygon(0 0, 50% 0, 100% 100%, 50% 100%);
+  background: rgb(203, 22, 149);
+  animation: to-right 4s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
+}
+
+@keyframes to-right {
+  0% {
+    left: 0;
+    width: 0%;
+  }
+  70% {
     left: 0;
     width: 100%;
   }
