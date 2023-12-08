@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="./aboutMe.css" />
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <!-- <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"> -->
     
   </head>
   <body>
@@ -119,8 +121,18 @@
       <iframe style="border-radius:12px,"Helvetica Neue", Helvetica, sans-serif;" src="https://open.spotify.com/embed/playlist/3yy6RLIpMdmSgrP438uHGb?utm_source=generator&theme=0" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
     </div>
-
+    <div class="mask">
+      <div class="maskTitle">
+        <p>Web3 Metamask Login</p>
+      </div> 
+      <div class="">
+        <button id='loginButton' onclick="" class="mx-auto rounded-md p-2 bg-blue-500 text-white">
+          Login with MetaMask
+        </button>
+      <p id='userWallet' class='text-lg text-gray-600 my-2'></p>
     </div>
-    <script src="./aboutMe.js"></script>
+    </div>
+    <script src="./aboutMe.js" id="loginButton"></script>
+
   </body>
 </html>
