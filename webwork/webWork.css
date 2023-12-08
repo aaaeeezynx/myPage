@@ -86,18 +86,11 @@
   height: 40vh;
   margin-top: 5%;
   text-decoration: none;
+  -webkit-clip-path: polygon(12% 0, 100% 0, 100% 80%, 88% 100%, 0 100%, 0 20%);
+          clip-path: polygon(12% 0, 100% 0, 100% 80%, 88% 100%, 0 100%, 0 20%);
   display: flex;
   justify-content: center;
   align-items: end;
-  animation: neon 2s ease-in-out infinite;
-}
-@keyframes neon {
-  0%, 100% {
-    box-shadow: 0 0 5px rgb(69, 174, 255), 0 0 10px rgb(69, 174, 255), 0 0 2px rgb(69, 174, 255);
-  }
-  50% {
-    box-shadow: 0 0 10px rgb(69, 174, 255), 0 0 15px rgb(69, 174, 255), 0 0 5px rgb(69, 174, 255);
-  }
 }
 .proj p {
   color: rgb(175, 173, 173);
