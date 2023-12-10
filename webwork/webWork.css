@@ -82,57 +82,106 @@
 }
 
 .proj {
-  width: 40%;
+  width: 35%;
   height: 40vh;
   margin-top: 5%;
   text-decoration: none;
   -webkit-clip-path: polygon(12% 0, 100% 0, 100% 80%, 88% 100%, 0 100%, 0 20%);
           clip-path: polygon(12% 0, 100% 0, 100% 80%, 88% 100%, 0 100%, 0 20%);
   display: flex;
-  justify-content: center;
-  align-items: end;
+  justify-content: end;
 }
-.proj p {
-  color: rgb(175, 173, 173);
-  text-shadow: 1px 1px 1px black;
-  font-size: 1.5em;
-  text-decoration: none;
+
+p {
+  color: rgb(255, 55, 172);
+  font-size: 2em;
+  writing-mode: vertical-lr;
+  text-orientation: sideways;
+  opacity: 0;
+  transition: 0.5s;
 }
 
 .proj:hover {
-  opacity: 0.5;
+  transition: 0.5s;
 }
 .proj:hover p {
   opacity: 1;
-  color: rgb(255, 255, 255);
 }
 
 .prac1 {
+  width: 100%;
+  height: 100%;
   background: url(../material/HTMLPractice.png) left;
   background-size: cover;
+  transition: 0.5s;
+}
+
+.prac1:hover {
+  transition: 0.5s;
+  filter: hue-rotate(315deg) blur(3px) opacity(0.5);
 }
 
 .prac2 {
+  width: 100%;
+  height: 100%;
   background: url(../material/HTMLPractice2.png) left;
   background-size: cover;
+  transition: 0.5s;
+}
+
+.prac2:hover {
+  transition: 0.5s;
+  filter: hue-rotate(315deg) blur(3px) opacity(0.5);
 }
 
 .prac3 {
+  width: 100%;
+  height: 100%;
   background: url(../material/GuessNumber.png) center;
   background-size: cover;
+  transition: 0.5s;
+}
+
+.prac3:hover {
+  transition: 0.5s;
+  filter: hue-rotate(315deg) blur(3px) opacity(0.5);
 }
 
 .prac4 {
+  width: 100%;
+  height: 100%;
   background: url(../material/Prime.png) center;
   background-size: cover;
+  transition: 0.5s;
+}
+
+.prac4:hover {
+  transition: 0.5s;
+  filter: hue-rotate(315deg) blur(3px) opacity(0.5);
 }
 
 .prac5 {
+  width: 100%;
+  height: 100%;
   background: url(../material/kagamiWeb.png) center;
   background-size: cover;
+  transition: 0.5s;
+}
+
+.prac5:hover {
+  transition: 0.5s;
+  filter: hue-rotate(315deg) blur(3px) opacity(0.5);
 }
 
 .prac6 {
+  width: 100%;
+  height: 100%;
   background: url(../material/Tainan.png) center;
   background-size: cover;
+  transition: 0.5s;
+}
+
+.prac6:hover {
+  transition: 0.5s;
+  filter: hue-rotate(315deg) blur(3px) opacity(0.5);
 }/*# sourceMappingURL=webWork.css.map */
